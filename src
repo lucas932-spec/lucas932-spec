@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	cadeia nome
+	
+	real SalarioFixo,TotalVendas,comissao,SalarioFinal
+	
+		escreva("digite o nome do vendedor?   ")
+		leia(nome)
+
+		escreva("salario fixo?  ")
+		leia(SalarioFixo)
+
+		escreva("total de vendas?")
+		leia(TotalVendas)
+
+		comissao=TotalVendas *0.15
+
+		SalarioFinal= SalarioFixo+comissao
+
+		escreva("nome do vendedor: " ,nome ,"/n")
+	     escreva("Salário fixo:   R$ ", SalarioFixo  ,"\n")
+	     escreva("seu salario final é de:  R$", SalarioFinal ,"/n")
+	     
+		
+		
+		
+		
+		
+	}
+}
