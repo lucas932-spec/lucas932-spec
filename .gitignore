@@ -1,0 +1,20 @@
+Este arquivo é utilizado para listar os arquivos e pastas que o Git deve ignorar. Para um projeto simples de código fonte, o .gitignore pode ser configurado da seguinte maneira:
+# Ignorar arquivos temporários e de configuração do sistema
+*.log
+*.tmp
+*.swp
+
+# Ignorar diretórios de compilação
+bin/
+build/
+out/
+
+# Ignorar arquivos de configuração do ambiente
+.env
+Estrutura do Projeto
+Calculadora-Salario-Vendedor/
+│
+├── README.md
+├── .gitignore
+├── main.alg (ou main.pseudocode dependendo da extensão usada para o código)
+└── LICENSE
